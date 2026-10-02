@@ -245,8 +245,9 @@ img {
 }
 
 .brand-icon {
-    width: 44px;
-    height: 44px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
     display: grid;
     place-items: center;
     border-radius: 50%;

@@ -1249,6 +1249,8 @@ function setupEvents() {
                 setLanguage(
                     button.dataset.language
                 );
+                document.getElementById("currentLanguage").textContent =
+                button.dataset.language === "ne" ? "NE" : "EN";                                             /*hgggg*/
 
             });
 
@@ -2924,7 +2926,6 @@ function updateOpeningStatus() {
             "menuOpeningStatus"
         )
     ];
-
 
     const label =
         isOpen
